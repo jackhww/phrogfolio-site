@@ -1,25 +1,25 @@
 export default [
     {
         title: "Project 1",
-        imgUrl: '',
+        imgUrl: '/assets/ai-nerf-gun.jpg',
         stack: ['React', 'Node', 'Express', 'MongoDB'],
         link: 'https://google.com',
     },
     {
         title: "Project 2",
-        imgUrl: '',
+        imgUrl: '/assets/phrogandphrogette.jpg',
         stack: ['React', 'Node', 'Express', 'MongoDB'],
         link: 'https://google.com',
     },
     {
         title: "Project 3",
-        imgUrl: '',
+        imgUrl: '/assets/okiedokie.jpg',
         stack: ['React', 'Node', 'Express', 'MongoDB'],
         link: 'https://google.com',
     },
     {
         title: "Project 4",
-        imgUrl: '',
+        imgUrl: '/assets/ookiedookie.jpg',
         stack: ['React', 'Node', 'Express', 'MongoDB'],
         link: 'https://google.com',
     }
