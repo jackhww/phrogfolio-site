@@ -22,5 +22,17 @@ export default [
         imgUrl: '/assets/phrog.jpg',
         stack: ['React', 'Node', 'Express'],
         link: 'https://google.com',
+    },
+    {
+        title: "Project 5",
+        imgUrl: '/assets/phrog.jpg',
+        stack: ['React', 'Node', 'Express'],
+        link: 'https://google.com',
+    },
+    {
+        title: "Project 6",
+        imgUrl: '/assets/phrog.jpg',
+        stack: ['React', 'Node', 'Express'],
+        link: 'https://google.com',
     }
 ]
