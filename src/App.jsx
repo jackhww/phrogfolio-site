@@ -5,11 +5,13 @@ import Footer from './components/footer'
 import Intro from './components/intro'
 import Portfolio from './components/portfolio'
 import Timeline from './components/timeline'
+import NavBar from './components/navBar'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
 
 function App() {
+  const [isActive, setIsActive] = useState(false);
   const [theme, setTheme] = useState(null);
   useEffect(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -77,10 +79,11 @@ const moon = (
 
     <div className='bg-green-100 dark:bg-gray-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter'>
       <div className='max-w-5xl w-11/12 mx-auto'>
+        <NavBar isActive = {isActive} setIsActive = {setIsActive}/>
         <Intro/>
         <Portfolio/>
         <Timeline/>
-        <Contact/> 
+        <Contact isActive={isActive} setIsActive={setIsActive} />
         <Footer/>
       </div>
     </div>
