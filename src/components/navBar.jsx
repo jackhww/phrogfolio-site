@@ -20,8 +20,6 @@ function NavBar({ isActive, setIsActive }) {
         setIsActive(true);
       }
     };
-  
-      
 
     return (
       <div className='hidden lg:flex fixed flex-col items-center top-[40%] left-0'>
