@@ -12,8 +12,8 @@ function SkillsItem({languages = [], frameworks = [], platforms = [], tools = []
   return (
     <div className="w-full text-left">
       {categories.map((category, index) => (
-        <div key={index}>
-          <h4 className="text-lg font-bold">{category.label}</h4>
+        <div className = 'pb-3' key={index}>
+          <h4 className="text-lg font-bold underline underline-offset-8 decoration-2 mb-3">{category.label}</h4>
           <p className="flex flex-wrap gap-2 flex-row items-center justify-start text-xs md:text-sm">
             {category.skills.map((skill, index) => (
               <span key={index} className="inline-block px-3 py-1 font-semibold border-2 border-stone rounded-md">

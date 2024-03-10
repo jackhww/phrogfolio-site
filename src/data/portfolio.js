@@ -12,7 +12,7 @@ export default [
         link: 'https://google.com',
     },
     {
-        title: "ESP32 Rubik's Cube Solver",
+        title: "ESP32 Rubik's Cube Solver (WIP)",
         imgUrl: '/assets/phrog.jpg',
         stack: ['ESP-IDF','RTOS','C','AI','Computer Vision','Personal Project'],
         link: 'https://google.com',
