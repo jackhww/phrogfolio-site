@@ -1,7 +1,7 @@
 export default [
     {
         title: "ESP32 Weather Forecasting Device",
-        imgUrl: '/assets/okiedokie.jpg',
+        imgUrl: '/assets/phrog.jpg',
         stack: ['ESP-IDF','RTOS', 'C', 'IoT','Personal Project'],
         link: 'https://google.com',
     },
@@ -19,7 +19,7 @@ export default [
     },
     {
         title: "Electromyography Controlled Wheelchair",
-        imgUrl: '/assets/ookiedookie.jpg',
+        imgUrl: '/assets/phrog.jpg',
         stack: ['Arduino','C++','Robotics','School Project, A+'],
         link: 'https://google.com',
     },
