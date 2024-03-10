@@ -1,38 +1,38 @@
 export default [
     {
-        title: "Project 1",
-        imgUrl: '/assets/phrog.jpg',
-        stack: ['React', 'Node', 'Express',],
-        link: 'https://google.com',
-    },
-    {
-        title: "Project 2",
-        imgUrl: '/assets/phrogandphrogette.jpg',
-        stack: ['React', 'Node', 'Express'],
-        link: 'https://google.com',
-    },
-    {
-        title: "Project 3",
+        title: "ESP32 Weather Forecasting Device",
         imgUrl: '/assets/okiedokie.jpg',
-        stack: ['React', 'Node', 'Express'],
+        stack: ['ESP-IDF','RTOS', 'C', 'IoT','Personal Project'],
         link: 'https://google.com',
     },
     {
-        title: "Project 4",
+        title: "Portfolio Website (This website)",
+        imgUrl: '/assets/phrogandphrogette.jpg',
+        stack: ['React','TailwindCSS','JavaScript','Personal Project'],
+        link: 'https://google.com',
+    },
+    {
+        title: "ESP32 Rubik's Cube Solver",
+        imgUrl: '/assets/phrog.jpg',
+        stack: ['ESP-IDF','RTOS','C','AI','Computer Vision','Personal Project'],
+        link: 'https://google.com',
+    },
+    {
+        title: "Electromyography Controlled Wheelchair",
         imgUrl: '/assets/ookiedookie.jpg',
-        stack: ['React', 'Node', 'Express'],
+        stack: ['Arduino','C++','Robotics','School Project, A+'],
         link: 'https://google.com',
     },
     {
-        title: "Project 5",
+        title: "Vibrational Energy Harvester (Flooble Crank)",
         imgUrl: '/assets/phrog.jpg',
-        stack: ['React', 'Node', 'Express'],
-        link: 'https://google.com',
+        stack: ['Arduino','C++','Piezoelectricity','School Project, A-'],
+        link: 'https://google.com'
     },
     {
-        title: "Project 6",
+        title: "RPA for Data Entry Automation",
         imgUrl: '/assets/phrog.jpg',
-        stack: ['React', 'Node', 'Express'],
+        stack: ['Python', 'Regex','VBA','Internship Project'],
         link: 'https://google.com',
     }
 ]

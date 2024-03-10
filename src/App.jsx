@@ -6,6 +6,7 @@ import Intro from './components/intro'
 import Portfolio from './components/portfolio'
 import Timeline from './components/timeline'
 import NavBar from './components/navBar'
+import Skills from './components/skills'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
@@ -81,6 +82,7 @@ const moon = (
       <div className='max-w-5xl w-11/12 mx-auto'>
         <NavBar isActive = {isActive} setIsActive = {setIsActive}/>
         <Intro/>
+        <Skills/>
         <Portfolio/>
         <Timeline/>
         <Contact isActive={isActive} setIsActive={setIsActive} />

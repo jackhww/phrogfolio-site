@@ -18,7 +18,7 @@ function Contact({ isActive, setIsActive }) {
     <Element id="contact" className={isActive ? 'highlight flex flex-col mb-10 mx-auto' : 'flex flex-col mb-10 mx-auto'}>
       <div className='flex justify-center items-center'>
         <form
-          action="https://getform.io/slug"
+          action="https://getform.io/f/pagkkoja"
           method="POST"
           className="flex flex-col w-full md:w-7/12"
         >
@@ -29,6 +29,12 @@ function Contact({ isActive, setIsActive }) {
             placeholder="Name"
             className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
           />
+          <input
+                  type="text"
+                  name="email"
+                  placeholder="Email"
+                  className="my-2 p-2 bg-transparent border-2 rounded-md focus:outline-none"
+               />
           <textarea
             name="message"
             placeholder="Message"
@@ -37,7 +43,7 @@ function Contact({ isActive, setIsActive }) {
           >
           </textarea>
           <button
-            type="button"
+            type="submit"
             className='text-center inline-block px-8 py-3 w-max text-base font-medium rounded-md text-white bg-gradient-to-r from-green-400 to-green-700 drop-shadow-md hover:stroke-white'
           >
             Send
