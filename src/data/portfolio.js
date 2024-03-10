@@ -25,7 +25,7 @@ export default [
     },
     {
         title: "Vibrational Energy Harvester (Flooble Crank)",
-        imgUrl: '/assets/phrog.jpg',
+        imgUrl: '/assets/phrogandphrogette.jpg',
         stack: ['Arduino','C++','Piezoelectricity','School Project, A-'],
         link: 'https://google.com'
     },

@@ -5,7 +5,7 @@ function Footer() {
     <div className="py-5 text-center">
         {/* Soical Icons */}
         <p className = "text-sm mt-2 opacity-50">
-            &copy; This website was built with Tailwind CSS and React.
+            &copy; This website was built with Tailwind CSS and React. Do contact me for more information!
         </p>
     </div>
   )
