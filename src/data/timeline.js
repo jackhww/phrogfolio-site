@@ -3,7 +3,7 @@ export default [
         year: 'Today',
         title: 'Embedded Software Engineer, Innowave Tech',    
         duration: 'Present',
-        details: 'Building software for embedded systems in RTOS and developing prototypes in MicroPython and Arduino. I work with C, C++, and Python. I also work with RTOS and Robotics. I am also involved in the development of IoT devices.',
+        details: 'Building software for embedded systems in RTOS and developing prototypes in MicroPython and Arduino. I work with C, C++, and Python. Additionally, I work with Robotics and implement them around semiconductor fabs to optimise efficiency.',
     },
     {
         year: '2023',
