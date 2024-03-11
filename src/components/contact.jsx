@@ -3,20 +3,34 @@ import Title from './title';
 import { Element } from 'react-scroll';
 import '../styles/highlight.css';
 
-function Contact({ isActive, setIsActive }) {
-    useEffect(() => {
-      if (isActive) {
-        const timer = setTimeout(() => {
-          setIsActive(false);
-        }, 2000); // 2000ms = 2s, the duration of the animation
-  
-        return () => clearTimeout(timer);
-      }
-    }, [isActive, setIsActive]);
+function Contact({ isActive, setIsActive, highlightContact, setHighlightContact }) {
+  const [isHighlighted, setIsHighlighted] = useState(false);
+
+  useEffect(() => {
+    if (isActive) {
+      setIsHighlighted(true);
+      const timer = setTimeout(() => {
+        setIsActive(false);
+        setIsHighlighted(false);
+      }, 2000); // 2000ms = 2s, the duration of the animation
+
+      return () => clearTimeout(timer);
+    }
+  }, [isActive, setIsActive]);
+
+  useEffect(() => {
+    if (highlightContact) {
+      setIsHighlighted(true);
+      const timer = setTimeout(() => {
+        setIsHighlighted(false);
+        setHighlightContact(false);
+      }, 500); // adjust the delay to control the duration of the flash effect
+    }
+  }, [highlightContact, setHighlightContact]);
 
   return (
-    <Element id="contact" className={isActive ? 'highlight flex flex-col mb-10 mx-auto' : 'flex flex-col mb-10 mx-auto'}>
-      <div className='flex justify-center items-center'>
+  <Element id="contact" className={isHighlighted ? 'highlight flex flex-col mb-10 mx-auto' : 'flex flex-col mb-10 mx-auto'}>      
+        <div className='flex justify-center items-center'>
         <form
           action="https://getform.io/f/pagkkoja"
           method="POST"

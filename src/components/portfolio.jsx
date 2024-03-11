@@ -15,11 +15,13 @@ function Portfolio() {
                  stack={project.stack}
                  link={project.link}
               />
-              
            ))}
         </div>
      </div>
+     <p className="pt-3 text-sm text-gray-500">* Click on the images to learn more, some links may not be available just yet!</p>
+
      </div>
+     
   )
 }
 

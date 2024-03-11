@@ -14,6 +14,8 @@ import Skills from './components/skills'
 function App() {
   const [isActive, setIsActive] = useState(false);
   const [theme, setTheme] = useState(null);
+  const [highlightContact, setHighlightContact] = useState(false);
+
   useEffect(() => {
     if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
       setTheme('dark');
@@ -77,15 +79,17 @@ const moon = (
     >
       {theme === 'dark' ? sun : moon}
     </button>
+    <>
+    </>
 
     <div className='bg-green-100 dark:bg-gray-900 text-stone-900 dark:text-stone-300 min-h-screen font-inter'>
       <div className='max-w-5xl w-11/12 mx-auto'>
-        <NavBar isActive = {isActive} setIsActive = {setIsActive}/>
+        <NavBar isActive = {isActive} setIsActive = {setIsActive} setHighlightContact={setHighlightContact} />
         <Intro/>
         <Skills/>
         <Portfolio/>
         <Timeline/>
-        <Contact isActive={isActive} setIsActive={setIsActive} />
+        <Contact isActive={isActive} setIsActive={setIsActive} highlightContact={highlightContact} setHighlightContact={setHighlightContact} />
         <Footer/>
       </div>
     </div>

@@ -7,6 +7,9 @@ export default {
       fontFamily: {
         sans: ['Inter', 'sans-serif'],
       },
+      colors: {
+        current: 'currentColor',
+      },
     },
   },
   plugins: [],
