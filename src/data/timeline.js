@@ -1,7 +1,7 @@
 export default [
     {
         year: '2023',
-        title: "BEng (Hons), Mechanical Engineering (Mechatronics)",    
+        title: "BEng (Hons), Mechanical Engineering (Mechatronics) - Singapore Institute of Technology",    
         duration: '3 years',
         details: 'Specialised in Mechatronics, I have a strong foundation in mechanical design, electronics, and programming. The school coursework has equipped me with skills in Python to do data analysis and machine learning, and also skills in C & C++ to develop software for Embedded Systems.',
     },
