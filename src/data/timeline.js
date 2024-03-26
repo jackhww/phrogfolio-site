@@ -1,11 +1,5 @@
 export default [
     {
-        year: 'Today',
-        title: 'Embedded Software Engineer, Innowave Tech',    
-        duration: 'Present',
-        details: 'Building software for embedded systems in RTOS and developing prototypes in MicroPython and Arduino. I work with C, C++, and Python. Additionally, I work with Robotics and implement them around semiconductor fabs to optimise efficiency.',
-    },
-    {
         year: '2023',
         title: "BEng (Hons), Mechanical Engineering (Mechatronics)",    
         duration: '3 years',

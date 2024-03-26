@@ -33,6 +33,6 @@ export default [
         title: "RPA for Data Entry Automation",
         imgUrl: '/assets/rpa.jpg',
         stack: ['Python', 'Regex','VBA','Internship Project'],
-        link: 'jackhww.me',
+        link: 'https://jackhww.me',
     }
 ]
