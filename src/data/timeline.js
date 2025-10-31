@@ -1,5 +1,17 @@
 export default [
     {
+        year: '2024',
+        title: "Cloud/Cloud Native Engineer & AI Platform Lead, NCS Pte Ltd",    
+        duration: 'Present',
+        details: 'Deployed Air Gapped Kubernetes and OpenShift clusters, including post configuration and Operator deployments. Also participated in various AI initiatives, devloping RAG and Agentic tooling for internal use that was featured in NCS Impact 2025 and Dell Technology Forum 2025.',
+    },    
+    {
+        year: '2024',
+        title: "Embedded Software Engineer, Innowave Tech",    
+        duration: '0.5 years',
+        details: 'Designed and implemented POC models for inventory management systems using Time of Flight sensors to accurately track inventory levels and location. I also developed RTOS code on microcontrollers to interface with industry RS485 standards to enable seamless data transfer for data storage. Also participated in board bring-ups and reverse engineering. ',
+    },
+    {
         year: '2023',
         title: "BEng (Hons), Mechanical Engineering (Mechatronics) - Singapore Institute of Technology",    
         duration: '3 years',

@@ -3,10 +3,12 @@ import React from "react";
 function SkillsItem({languages = [], frameworks = [], platforms = [], tools = [], others = []}) {
   const categories = [
     {label: 'Languages', skills: languages},
-    {label: 'Frameworks', skills: frameworks},
-    {label: 'Platforms', skills: platforms},
+    {label: 'Cloud', skills: cloud},
+    {label: 'Cloud Native', skills: cloudNative},
+    {label: 'OSes', skills: operatingSystems},
     {label: 'Tools', skills: tools},
-    {label: 'Others', skills: others},
+    {label: 'Certifications', skills: certifications},
+
   ];
 
   return (

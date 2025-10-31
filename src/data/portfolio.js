@@ -12,9 +12,9 @@ export default [
         link: 'https://jackhww.me',
     },
     {
-        title: "ESP32 Rubik's Cube Solver (WIP)",
+        title: "Homelab",
         imgUrl: '/assets/phrog.jpg',
-        stack: ['ESP-IDF','RTOS','C','AI','Computer Vision','Personal Project'],
+        stack: ['Proxmox','Networking & Configurations','Windows Server (DNS & LDAP)','Portainer', 'k3s', 'OpenShift', 'Personal Project' ],
         link: 'https://jackhww.me',
     },
     {
