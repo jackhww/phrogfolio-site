@@ -9,6 +9,5 @@ export default [
       cloudNative: ['OpenShift', 'Kubernetes', 'Rancher'],
       certifications: ['AWS Cloud Practitioner', 'Azure Fundamentals', 'GCP Digital Leader', 'Redhat Certified System Administrator', 'Certified Kubernetes Administrator', 'Certified Kubernetes Application Developer', 'ITILv4'],
       operatingSystems: ['Windows Server (LDAP, DNS)','Linux (RHEL, Arch)','FreeRTOS']
-
     }
   ]
