@@ -1,7 +1,7 @@
 export default [
     {
         year: '2024',
-        title: "Cloud/Cloud Native Engineer & AI Platform Lead, NCS Pte Ltd",    
+        title: "Cloud/Cloud Native Engineer, NCS Pte Ltd",    
         duration: 'Present',
         details: 'Deployed Air Gapped Kubernetes and OpenShift clusters, including post configuration and Operator deployments. Also participated in various AI initiatives, developing RAG and Agentic tooling for internal use that was featured in NCS Impact 2025 and Dell Technology Forum 2025.',
     },    
