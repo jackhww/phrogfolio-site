@@ -14,7 +14,7 @@ export default [
     {
         title: "Homelab",
         imgUrl: '/assets/phrog.jpg',
-        stack: ['Proxmox','Networking & Configurations','Windows Server (DNS & LDAP)','Portainer', 'k3s', 'OpenShift', 'Personal Project' ],
+        stack: ['Proxmox','Networking & Configurations','Windows Server (DNS & LDAP)','Portainer', 'k3s', 'OpenShift','k8s','Rancher', 'Personal Project' ],
         link: 'https://jackhww.me',
     },
     {
